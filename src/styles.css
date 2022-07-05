@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: 5px auto;
+  border: 1px solid black;
+  padding: 5%;
+  background-color: rgb(214 233 230);
+}
+
+button {
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(175 195 218);
+}
+
+button:hover {
+  background-color: rgb(155 211 203);
+  cursor: pointer;
+}
+
+.eachRow {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+
+  margin: 10px;
+  align-items: center;
+  border: 2px solid rgb(99 124 115);
+  border-radius: 1rem;
+  padding: 0 5px;
+}
+
+.eachRow:hover {
+  background-color: rgb(247; 243; 243);
+}
+
+input {
+  border: 2px solid teal;
+  padding: 1%;
+}
